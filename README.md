@@ -9,7 +9,7 @@ Skills learned: Backend (Flask), NLP, Cloud Engineering (AWS)
 ## Project Goals
 This project will be split up into three sections:
 1. Build and train chatbot using tutorials and outlines provided by leads (5-6 weeks)
-  - If groups are unable to build a model or are unsatisfied with it, they can use pretrained models off of places like HuggingFace
+    - If groups are unable to build a model or are unsatisfied with it, they can use pretrained models off of places like HuggingFace
 2. Develop Flask backend and connect with Twitter's API (2 weeks)
 3. Deploy to cloud (2-3 weeks)
 
