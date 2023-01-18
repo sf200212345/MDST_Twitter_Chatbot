@@ -30,4 +30,37 @@ Members will be able to choose their own datasets based on what kind of model th
 - Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
 
 ## Timeline
-maybe see how to make gantt chart in github
+### Week 1: Introduction
+- Introduction to project
+- Setup local environments
+- Split into sub-teams
+- Search and explore datasets and models
+
+### Weeks 2-5: Model building and training
+- Decide on model and datasets
+- Implement model and train on datasets
+- Optionally implement additional models
+- Make Twitter Developer account, since it takes time to approve
+
+### Week 6: Start backend phase of project
+- Wrap up model training
+  - If model is unsatisfactory to the members of the sub-team, get pretrained model from places like HuggingFace
+- Setup local server with default configs for testing
+- Start building Flask backend
+
+### Week 7: Continue working on backend
+- Continue building backend
+- Connect and test the Twitter API using Tweepy
+
+### Week 8: Start deployment phase of project
+- Wrap up backend development
+- Wrap up Twitter API integration
+- Start deployment to AWS
+
+### Week 9: Continue deployment
+- Continue deployment to AWS (we anticipate this taking a while)
+
+### Week 10: Final touches
+- Wrap up development for all chatbots
+- Complete write-up
+- Compile most interesting tweets for showcase (can be thought-provoking, funny or insights into issues/successes during training)
