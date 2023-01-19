@@ -4,7 +4,7 @@
 Have you ever wondered how chatbots like ChatGPT manage to interact with users so smoothly, or how giant conversational systems like Siri are built on the backend to be able to serve messages to millions of phones? If so, join this semester’s Twitter chatbot project! We will be training our own language models, building backends, and deploying them to the cloud. This project also provides an excellent introduction to methods and architectures that are widely employed in industry (in high paying fields like ML engineering 👀).
 
 Prerequisites: Python programming, ML experience preferred
-Skills learned: Backend (Flask), NLP, Cloud Engineering (AWS)
+Skills learned: Web development (Flask), NLP, Cloud Engineering (AWS)
 
 ## Project Goals
 This project will be split up into three sections:
