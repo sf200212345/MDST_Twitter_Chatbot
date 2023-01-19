@@ -16,13 +16,13 @@ This project will be split up into three sections:
 Ultimately, we want each group to be able to have a fully functioning Twitter chatbot that they can show off to friends, family and recruiters. There will be a lot of opportunities for groups to take ownership of their project, such as choosing a specific dataset, model architecture, and more. 
 
 ## Specifics
-We will leave the choice of model up to members, but the simplest model is probably (Bi)LSTMs in seq2seq architecture. Other choices include BERT/other transformers, and anything feasible that members can find. For the backend, we will be using Flask, which is a lightweight Python framework. We will also be using Tweepy, which simplifies connecting to Twitter's API. Finally, we will likely be using AWS Lambda to deploy our chatbot, but this may be subject to change.
+We will start by building LSTM models in a seq2seq architecture, after which members are free to experiment with more advanced models and architectures, like transformers or state-based chatbots. For the backend, we will be using Flask, which is a lightweight Python framework used to build web servers. We will also be using Tweepy, which simplifies connecting to Twitter's API. Finally, we will be deploying our chatbots to AWS to give members experience using state of the art ML engineering tools.
 
 ## Datasets
 Members will be able to choose their own datasets based on what kind of model they want to build, but we will provide resources as a starting point to find datasets. For example, in the [paper linked below](https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf), they built a dataset with tweets about guns to make a chatbot that specialized in responses about guns. 
 - https://imerit.net/blog/14-best-chatbot-datasets-for-machine-learning-all-pbm/ 
 
-## Resources (will be populated more)
+## Resources (will be populated more as semester progresses)
 - Tutorials for LSTM seq2seq chatbot:
   - Tensor Flow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
 - Tutorial for Transformer seq2seq chatbot: [TBD]
@@ -32,19 +32,19 @@ Members will be able to choose their own datasets based on what kind of model th
 ## Timeline
 ### Week 1: Introduction
 - Introduction to project
-- Setup local environments
 - Split into sub-teams
+- Setup local environments
 - Search and explore datasets and models
 
 ### Weeks 2-5: Model building and training
 - Decide on model and datasets
 - Implement model and train on datasets
 - Optionally implement additional models
-- Make Twitter Developer account, since it takes time to approve
+- Set up Twitter Developer account
 
 ### Week 6: Start backend phase of project
 - Wrap up model training
-  - If model is unsatisfactory to the members of the sub-team, get pretrained model from places like HuggingFace
+  - If model is unsatisfactory to the members of the sub-team, can get pretrained model from places like HuggingFace
 - Setup local server with default configs for testing
 - Start building Flask backend
 
@@ -52,7 +52,7 @@ Members will be able to choose their own datasets based on what kind of model th
 - Continue building backend
 - Connect and test the Twitter API using Tweepy
 
-### Week 8: Start deployment phase of project
+### Week 8: Start cloud phase of project
 - Wrap up backend development
 - Wrap up Twitter API integration
 - Start deployment to AWS
