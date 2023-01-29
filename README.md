@@ -25,10 +25,16 @@ Members will be able to choose their own datasets based on what kind of model th
 
 ## Resources (will be populated more as semester progresses)
 - Tutorials for LSTM seq2seq chatbot:
-  - Tensor Flow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
-- Tutorial for Transformer seq2seq chatbot: [TBD]
-- Tweepy docs: https://docs.tweepy.org/en/stable/ 
+    - TensorFlow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
+    - PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+    - Keras: https://towardsdatascience.com/how-to-implement-seq2seq-lstm-model-in-keras-shortcutnlp-6f355f3e5639
+- Tutorial for Transformer seq2seq chatbot:
+    - TensorFlow: https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html
+- Tweepy docs: https://docs.tweepy.org/en/stable/
+- Flask docs: https://flask.palletsprojects.com/en/2.2.x/
 - Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
+- Text generation using LSTMs in Keras/TensorFlow: https://www.kaggle.com/code/shivamb/beginners-guide-to-text-generation-using-lstms
+    - For more specific information on what an LSTM is: https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru
 
 ## Timeline
 ### Week 1: Introduction
