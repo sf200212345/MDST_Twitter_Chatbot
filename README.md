@@ -42,6 +42,7 @@ Members will be able to choose their own datasets based on what kind of model th
 - Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
 - Text generation using LSTMs in Keras/TensorFlow: https://www.kaggle.com/code/shivamb/beginners-guide-to-text-generation-using-lstms
     - For more specific information on what an LSTM is: https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru
+- Introduction to Transformers and Attention: https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452
 - Introduction to seq2seq: https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b
 - Helpful Google Colab features:
     - https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
