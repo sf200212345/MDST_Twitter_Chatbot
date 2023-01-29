@@ -41,11 +41,15 @@ Members will be able to choose their own datasets based on what kind of model th
 - Introduction to seq2seq: https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b
 
 ## Timeline
+### Week 0: Kickoff!
+- Slides: https://docs.google.com/presentation/d/16gVVELVs9KSKAHKl8NLfL9k9V0v8j8bt_fkE-5O2rik/edit?usp=sharing
+
 ### Week 1: Introduction
-- Introduction to project
+- Introduction to project and NLP preprocessing methods
 - Split into sub-teams
 - Setup local environments
 - Search and explore datasets and models
+- Slides: https://docs.google.com/presentation/d/1_KqZv3GjDo8PywHw46nVc8je0wSy94jfEc57tYV8EiI/edit?usp=sharing
 
 ### Weeks 2-5: Model building and training
 - Decide on model and datasets
