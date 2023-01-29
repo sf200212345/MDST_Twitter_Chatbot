@@ -7,6 +7,8 @@ Prerequisites: Python programming, ML experience preferred
 
 Skills learned: Web development (Flask), NLP, Cloud Engineering (AWS)
 
+**We will be using Google Colab to train our models.**
+
 ## Project Goals
 This project will be split up into three sections:
 1. Build and train chatbot using tutorials and outlines provided by leads (5-6 weeks)
@@ -31,7 +33,7 @@ Members will be able to choose their own datasets based on what kind of model th
     - TensorFlow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
     - PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
     - Keras: https://towardsdatascience.com/how-to-implement-seq2seq-lstm-model-in-keras-shortcutnlp-6f355f3e5639
-- Tutorial for Transformer chatbot:
+- Tutorials for Transformer chatbot:
     - TensorFlow: https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html
     - PyTorch (part 1 of 3, follow the links): https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa
 - Tweepy docs: https://docs.tweepy.org/en/stable/
@@ -40,6 +42,12 @@ Members will be able to choose their own datasets based on what kind of model th
 - Text generation using LSTMs in Keras/TensorFlow: https://www.kaggle.com/code/shivamb/beginners-guide-to-text-generation-using-lstms
     - For more specific information on what an LSTM is: https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru
 - Introduction to seq2seq: https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b
+- Helpful Google Colab features:
+    - https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
+        - Changing to a GPU runtime
+        - Mounting your Google Drive
+        - Cloning a Git repository
+        - Other helpful tips!
 
 ## Timeline
 ### Week 0: Kickoff!
