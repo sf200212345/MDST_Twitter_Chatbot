@@ -24,6 +24,9 @@ Members will be able to choose their own datasets based on what kind of model th
 - https://imerit.net/blog/14-best-chatbot-datasets-for-machine-learning-all-pbm/ 
 
 ## Resources (will be populated more as semester progresses)
+- Preprocessing Tutorials:
+    - Cleaning: https://towardsdatascience.com/nlp-in-python-data-cleaning-6313a404a470
+    - Tokenization: https://neptune.ai/blog/tokenization-in-nlp
 - Tutorials for LSTM seq2seq chatbot:
     - TensorFlow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
     - PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
