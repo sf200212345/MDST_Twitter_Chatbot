@@ -53,11 +53,12 @@ Members will be able to choose their own datasets based on what kind of model th
 ### Week 0: Kickoff!
 - Slides: https://docs.google.com/presentation/d/16gVVELVs9KSKAHKl8NLfL9k9V0v8j8bt_fkE-5O2rik/edit?usp=sharing
 
-### Week 1: Introduction
+### Week 1: NLP Preprocessing and Datasets
 - Introduction to project and NLP preprocessing methods
 - Split into sub-teams
 - Setup local environments
 - Search and explore datasets and models
+- Build preprocessing pipeline for training data and future queries/prompts
 - Slides: https://docs.google.com/presentation/d/1_KqZv3GjDo8PywHw46nVc8je0wSy94jfEc57tYV8EiI/edit?usp=sharing
 
 ### Weeks 2-5: Model building and training
