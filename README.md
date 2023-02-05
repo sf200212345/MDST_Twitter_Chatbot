@@ -30,7 +30,8 @@ Members will be able to choose their own datasets based on what kind of model th
     - Cleaning: https://towardsdatascience.com/nlp-in-python-data-cleaning-6313a404a470
     - Tokenization: https://neptune.ai/blog/tokenization-in-nlp
 - Tutorials for LSTM seq2seq chatbot:
-    - TensorFlow: https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523
+    - TensorFlow: ~~https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523~~
+        - Use this instead https://towardsdatascience.com/generative-chatbots-using-the-seq2seq-model-d411c8738ab5
     - PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
     - Keras: https://towardsdatascience.com/how-to-implement-seq2seq-lstm-model-in-keras-shortcutnlp-6f355f3e5639
         - Keras might be merged into TensorFlow in the future, but you should be able to use tf.keras to access all the functions
