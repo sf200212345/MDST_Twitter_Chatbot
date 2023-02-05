@@ -37,7 +37,9 @@ Members will be able to choose their own datasets based on what kind of model th
         - Keras might be merged into TensorFlow in the future, but you should be able to use tf.keras to access all the functions
 - Tutorials for Transformer chatbot:
     - TensorFlow: https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html
+        - More recent version: https://www.tensorflow.org/text/tutorials/transformer
     - PyTorch (part 1 of 3, follow the links): https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa
+        - This may be more applicable to generative conversational models https://chatbotslife.com/language-translation-with-transformers-in-pytorch-ff8b32cf848
 - Tweepy docs: https://docs.tweepy.org/en/stable/
 - Flask docs: https://flask.palletsprojects.com/en/2.2.x/
 - Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
