@@ -50,6 +50,7 @@ Members will be able to choose their own datasets based on what kind of model th
         - Mounting your Google Drive
         - Cloning a Git repository
         - Other helpful tips!
+- EECS 504-442 PyTorch Tutorial: https://colab.research.google.com/drive/1-rJmh-cXq7QjgyQ82SGAZ_uvv0uIRvgM?usp=sharing
 
 ## Timeline
 ### Week 0: Kickoff!
