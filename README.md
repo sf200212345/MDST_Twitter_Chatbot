@@ -63,11 +63,16 @@ Members will be able to choose their own datasets based on what kind of model th
 - Build preprocessing pipeline for training data and future queries/prompts
 - Slides: https://docs.google.com/presentation/d/1_KqZv3GjDo8PywHw46nVc8je0wSy94jfEc57tYV8EiI/edit?usp=sharing
 
-### Weeks 2-5: Model building and training
-- Decide on model and datasets
-- Implement model and train on datasets
+### Week 2: NLP Models and Architectures
+- Intro to text embeddings, LSTMs, Transformers
+- Start building models
+- Slides: https://docs.google.com/presentation/d/1MvQvtubG2zz_lsTra9In2FuHoHLKMsuDkoiFFgVEZJ8/edit?usp=sharing
+
+### Weeks 3-5: Model building and training
+- Continue building models
+- Start training models
 - Optionally implement additional models
-- Set up Twitter Developer account
+- Use metrics to evaluate effectiveness of model
 
 ### Week 6: Start backend phase of project
 - Wrap up model training
