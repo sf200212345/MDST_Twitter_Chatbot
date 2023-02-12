@@ -28,41 +28,41 @@ Members will be able to choose their own datasets based on what kind of model th
 ## Resources (will be populated more as semester progresses)
 ### NLP Model Building and Training
 #### Preprocessing Tutorials
-    - Cleaning: https://towardsdatascience.com/nlp-in-python-data-cleaning-6313a404a470
-    - Tokenization: https://neptune.ai/blog/tokenization-in-nlp
+- Cleaning: https://towardsdatascience.com/nlp-in-python-data-cleaning-6313a404a470
+- Tokenization: https://neptune.ai/blog/tokenization-in-nlp
 #### Tutorials for LSTM seq2seq chatbot:
-    - TensorFlow: ~~https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523~~
-        - Use this instead https://towardsdatascience.com/generative-chatbots-using-the-seq2seq-model-d411c8738ab5
-    - PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
-    - Keras: https://towardsdatascience.com/how-to-implement-seq2seq-lstm-model-in-keras-shortcutnlp-6f355f3e5639
-        - Keras might be merged into TensorFlow in the future, but you should be able to use tf.keras to access all the functions
+- TensorFlow: ~~https://medium.com/analytics-vidhya/chatbot-development-using-deep-learning-nlp-implementing-seq2seq-model-eb1114903523~~
+    - Use this instead https://towardsdatascience.com/generative-chatbots-using-the-seq2seq-model-d411c8738ab5
+- PyTorch: https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+- Keras: https://towardsdatascience.com/how-to-implement-seq2seq-lstm-model-in-keras-shortcutnlp-6f355f3e5639
+    - Keras might be merged into TensorFlow in the future, but you should be able to use tf.keras to access all the functions
 #### Tutorials for Transformer chatbot:
-    - TensorFlow: https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html
-        - More recent version: https://www.tensorflow.org/text/tutorials/transformer
-    - PyTorch ~~(part 1 of 3, follow the links): https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa~~
-        - This may be more applicable to generative conversational models https://chatbotslife.com/language-translation-with-transformers-in-pytorch-ff8b32cf848
+- TensorFlow: https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html
+    - More recent version: https://www.tensorflow.org/text/tutorials/transformer
+- PyTorch ~~(part 1 of 3, follow the links): https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa~~
+    - This may be more applicable to generative conversational models https://chatbotslife.com/language-translation-with-transformers-in-pytorch-ff8b32cf848
 #### Evaulation Metrics
-    - Introduction to metrics: https://towardsdatascience.com/how-to-evaluate-text-generation-models-metrics-for-automatic-evaluation-of-nlp-models-e1c251b04ec1
-    - BLEU: https://www.nltk.org/api/nltk.translate.bleu_score.html
-    - ROUGE: https://pypi.org/project/rouge-metric/
-    - F-Score: https://deepai.org/machine-learning-glossary-and-terms/f-score
+- Introduction to metrics: https://towardsdatascience.com/how-to-evaluate-text-generation-models-metrics-for-automatic-evaluation-of-nlp-models-e1c251b04ec1
+- BLEU: https://www.nltk.org/api/nltk.translate.bleu_score.html
+- ROUGE: https://pypi.org/project/rouge-metric/
+- F-Score: https://deepai.org/machine-learning-glossary-and-terms/f-score
 #### Google Colab Resources
-    - https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
-        - Changing to a GPU runtime
-        - Mounting your Google Drive
-        - Cloning a Git repository
-        - Other helpful tips!
-    - EECS 504-442 PyTorch Tutorial: https://colab.research.google.com/drive/1-rJmh-cXq7QjgyQ82SGAZ_uvv0uIRvgM?usp=sharing
-        - Please make a copy if you want to run cells!
+- https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
+    - Changing to a GPU runtime
+    - Mounting your Google Drive
+    - Cloning a Git repository
+    - Other helpful tips!
+- EECS 504-442 PyTorch Tutorial: https://colab.research.google.com/drive/1-rJmh-cXq7QjgyQ82SGAZ_uvv0uIRvgM?usp=sharing
+    - Please make a copy if you want to run cells!
 #### Other Resources
-    - Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
-    - Text generation using LSTMs in Keras/TensorFlow: https://www.kaggle.com/code/shivamb/beginners-guide-to-text-generation-using-lstms
-        - For more specific information on what an LSTM is: https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru
-    - Introduction to Transformers and Attention: https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452
-    - Introduction to seq2seq: https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b
+- Paper formalizing building a chatbot with LSTM in seq2seq architecture https://www.public.asu.edu/~hdavulcu/SNAM-2020.pdf
+- Text generation using LSTMs in Keras/TensorFlow: https://www.kaggle.com/code/shivamb/beginners-guide-to-text-generation-using-lstms
+    - For more specific information on what an LSTM is: https://www.kaggle.com/code/thebrownviking20/intro-to-recurrent-neural-networks-lstm-gru
+- Introduction to Transformers and Attention: https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452
+- Introduction to seq2seq: https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b
 ### Web Development
-    - Tweepy docs: https://docs.tweepy.org/en/stable/
-    - Flask docs: https://flask.palletsprojects.com/en/2.2.x/
+- Tweepy docs: https://docs.tweepy.org/en/stable/
+- Flask docs: https://flask.palletsprojects.com/en/2.2.x/
 
 ## Timeline
 ### Week 0: Kickoff!
