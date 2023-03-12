@@ -86,6 +86,7 @@ Members will be able to choose their own datasets based on what kind of model th
 - Start training models
 - Optionally implement additional models
 - Use metrics to evaluate effectiveness of model
+    - Slides: https://docs.google.com/presentation/d/1qdy9t-teUUBMTdOomVp7NNVu67MF0xFmbSeCsYjpWww/edit?usp=sharing
 
 ### Week 6: Start backend phase of project
 - Wrap up model training
