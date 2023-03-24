@@ -13,8 +13,12 @@ body {
   font-family: sans-serif;
 }
 
-.chat-container {
+.chat-container, .chat-window, .input-window input, .user, .not-user {
   border: 1px black solid;
+  border-radius: 1em;
+}
+
+.chat-container {
   height: 80vh;
   width: 70vw;
   display: flex;
@@ -24,7 +28,6 @@ body {
 }
 
 .chat-window, .input-window {
-  border: 1px black solid;
   margin-bottom: 5%;
 }
 
@@ -32,9 +35,47 @@ body {
   margin-top: 5%;
   height: 75%;
   width: 90%;
+  overflow: auto;
+  scroll-snap-type: y proximity;
 }
 
 .input-window {
   height: 10%;
   width: 90%;
+}
+
+.input-window input {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.text:last-child {
+  scroll-snap-align: end;
+}
+
+.text {
+  width: 100%;
+  margin: 0;
+  min-height: 2em;
+  line-height: 2em;
+}
+
+.user, .not-user {
+  width: 45%;
+  min-height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  overflow-wrap: normal;
+}
+
+.user {
+  margin: 2% 2% 2% auto;
+}
+
+.not-user {
+  margin: 2% 2% auto 2%;
 }
