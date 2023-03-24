@@ -22,4 +22,4 @@ To run your flask app (make sure your virtual environment is activated!):
 flask --app api run --debug -p 3000
 ```
 
-This will run flask as a development server locally with the IP as localhost/127.0.0.1. 
+This will run flask as a development server locally with the IP as localhost (127.0.0.1).
