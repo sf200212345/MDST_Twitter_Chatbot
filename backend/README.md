@@ -5,14 +5,14 @@ Use the following to create a virtual environment. Make sure you are inside the 
 python3 -m venv env
 ```
 
-To activate/deactivate your virtual environment (make sure to always activate before running anything in api!):
+To activate/deactivate your virtual environment (make sure to always activate before running anything in "backend"!):
 ```
 source env/bin/activate
 deactivate
 ```
 
-Prior to installing dependencies, uncomment either tensorflow (includes keras) or torch depending on which library you use. These dependencies are fairly large at ~500 MB, so you only want to install the one you need.
-To install dependencies (make sure you're inside the "api" folder and your virtual environment has been activated!):
+Prior to installing dependencies, uncomment either tensorflow (includes keras) or torch depending on which library you use in the requirements.txt file. These dependencies are fairly large at ~500 MB, so you only want to install the one you need.
+To install dependencies (make sure you're inside the "backend" folder and your virtual environment has been activated!):
 ```
 pip install -r requirements.txt
 ```
@@ -22,4 +22,4 @@ To run your flask app (make sure your virtual environment is activated!):
 flask --app api run --debug -p 3000
 ```
 
-This will run flask as a development server locally with the IP as localhost (127.0.0.1).
+This will run flask as a development server locally with the IP as localhost (127.0.0.1) and 3000 as the port. If the port 3000 is not available, run it on any available port and make sure to set the correct port on the frontend interface.
