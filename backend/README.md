@@ -1,6 +1,6 @@
 You will need to set up a python virtual environment for this section. Virtual environments are useful to make sure packages used by everyone pulling from your repo is the same version. They can also prevent overwriting global packages, which may be especially helpful if your project uses a different version of a package from your globally installed one.
 
-Use the following to create a virtual environment. Make sure you are inside the "api" folder when doing this.
+Use the following to create a virtual environment. Make sure you are inside the "backend" folder when doing this.
 ```
 python3 -m venv env
 ```
