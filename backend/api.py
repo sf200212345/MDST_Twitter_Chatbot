@@ -24,11 +24,11 @@ def repeat():
 @app.route("/single/", methods=["POST"])
 def generate_text_single():
     # accepts a single line of text (i.e. one text bubble from the user) and returns the generated text from your model
-    return "hello from single", 200
+    return flask.jsonify({"g_text": "hello from single"}), 200
 
 @app.route("/all/", methods=["POST"])
 def generate_text_all():
     # accepts the entire conversation thus far (i.e. all text bubbles from both user and generator) and returns the generated text
     # use this route if you want the entire context of your conversation to be considered,
     # but you may need to change the logic of your text generation
-    return "hello from all", 200
+    return flask.jsonify({"g_text": "hello from all"}), 200
