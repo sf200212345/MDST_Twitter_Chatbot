@@ -9,13 +9,23 @@ function App() {
 
   // three modes to determine which API route to call
   // r for repeat, s for single, a for all
-  const [mode, setMode] = useState("Repeat");
+  const [mode, setMode] = useState("repeat");
 
   const [openSettings, setOpenSettings] = useState(false);
 
-  // adds the current input to setChatText and makes a request to the API
+  // makes a request to the API and adds the current input to setChatText 
   const submitText = currText => {
-    setChatText([...chatText, [currText, true]]);
+    let api_url = `//localhost:${port}/${mode}/`;
+    fetch(api_url, {
+      method: "POST",
+      body: JSON.stringify({"text": currText}),
+      headers: {"Content-Type": "application/json"}
+    }).then((response) => {
+      if (!response.ok) throw Error(response.statusText);
+      return response.json();
+    }).then((data) => {
+      setChatText([...chatText, [currText, true], [data["g_text"], false]]);
+    }).catch((error) => console.log(error));
   };
 
   return (
@@ -33,12 +43,12 @@ function App() {
           <input type="number" id="port" onChange={(e) => setPort(e.target.value)} value={port} /><br />
           <div className='modes'>
             <p>Generation Mode</p>
-            <input type="radio" id="repeat" name='modes' value="Repeat" checked={mode === "Repeat"} onChange={(e) => setMode(e.target.value)} />
-            <label htmlFor='repeat'>Repeat: Repeat back user input.</label><br />
-            <input type="radio" id="single" name='modes' value="Single" checked={mode === "Single"} onChange={(e) => setMode(e.target.value)} />
-            <label htmlFor='single'>Single: Generate on single line of user input.</label><br />
-            <input type='radio' id="all" name='modes' value="All" checked={mode === "All"} onChange={(e) => setMode(e.target.value)} />
-            <label htmlFor='all'>All: Generate on all lines of user input.</label><br />
+            <input type="radio" id="repeat" name='modes' value="repeat" checked={mode === "repeat"} onChange={(e) => setMode(e.target.value)} />
+            <label htmlFor='repeat'>repeat: Repeat back user input.</label><br />
+            <input type="radio" id="single" name='modes' value="single" checked={mode === "single"} onChange={(e) => setMode(e.target.value)} />
+            <label htmlFor='single'>single: Generate on single line of user input.</label><br />
+            <input type='radio' id="all" name='modes' value="all" checked={mode === "all"} onChange={(e) => setMode(e.target.value)} />
+            <label htmlFor='all'>all: Generate on all lines of user input.</label><br />
           </div>
           <button onClick={() => setOpenSettings(false)}>Submit</button>
         </div> : <></>}

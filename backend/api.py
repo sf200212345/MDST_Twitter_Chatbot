@@ -1,9 +1,11 @@
 import sys
 import flask
+import flask_cors
 
 app = flask.Flask(__name__)
+flask_cors.CORS(app)
 
-@app.route("/repeat/")
+@app.route("/repeat/", methods=["POST"])
 def repeat():
     # this route repeats the sent text back to demonstrate some of how flask works
     text = flask.request.get_json()["text"]
@@ -12,16 +14,16 @@ def repeat():
         return "Error: body type is not application/json or no attribute 'text' was attached", 400
 
     print("hello from the /repeat/ route\n", file=sys.stderr)
-    return text, 200
+    return flask.jsonify({"g_text": text}), 200
 
-@app.route("/generate-text/single/")
+@app.route("/single/", methods=["POST"])
 def generate_text_single():
     # accepts a single line of text (i.e. one text bubble from the user) and returns the generated text from your model
-    return "", 200
+    return "hello from single", 200
 
-@app.route("/generate-text/all/")
+@app.route("/all/", methods=["POST"])
 def generate_text_all():
     # accepts the entire conversation thus far (i.e. all text bubbles from both user and generator) and returns the generated text
     # use this route if you want the entire context of your conversation to be considered,
     # but you may need to change the logic of your text generation
-    return "", 200
+    return "hello from all", 200
