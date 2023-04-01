@@ -5,6 +5,11 @@ import flask_cors
 app = flask.Flask(__name__)
 flask_cors.CORS(app)
 
+# this is route to access the user interface
+@app.route("/")
+def main():
+    return flask.render_template("index.html"), 200
+
 @app.route("/repeat/", methods=["POST"])
 def repeat():
     # this route repeats the sent text back to demonstrate some of how flask works
