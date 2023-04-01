@@ -13,7 +13,7 @@ body {
   font-family: sans-serif;
 }
 
-.chat-container, .chat-window, .input-window input, .user, .not-user {
+.chat-container, .chat-window, .input-window input, .user, .not-user, .min-settings, .settings {
   border: 1px black solid;
   border-radius: 1em;
 }
@@ -28,14 +28,14 @@ body {
 }
 
 .chat-window, .input-window {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .chat-window {
-  margin-top: 5%;
+  margin-top: 1%;
   height: 75%;
   width: 90%;
-  overflow: auto;
+  overflow-y: scroll;
   scroll-snap-type: y proximity;
 }
 
@@ -78,4 +78,47 @@ body {
 
 .not-user {
   margin: 2% 2% auto 2%;
+}
+
+.min-settings {
+  position: fixed;
+  padding: 10px;
+  top: 1vh;
+  left: 1vw;
+}
+
+.settings {
+  position: fixed;
+  height: 80vh;
+  width: 80vw;
+  top: 10vh;
+  left: 10vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings label, .settings input, .settings button, .modes {
+  margin: 1%;
+  width: 50%;
+}
+
+.modes {
+  margin: 5%;
+}
+
+.modes input {
+  width: 10%;
+}
+
+h1 {
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 1%;
 }
