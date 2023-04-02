@@ -16,9 +16,13 @@ function App() {
   // makes a request to the API and adds the current input to setChatText 
   const submitText = currText => {
     let api_url = `//localhost:${port}/${mode}/`;
+    let send_body = JSON.stringify({"text": currText});
+    if (mode === "all") {
+      send_body = JSON.stringify({"text": [...chatText.map(curr => curr[0]), currText]});
+    }
     fetch(api_url, {
       method: "POST",
-      body: JSON.stringify({"text": currText}),
+      body: send_body,
       headers: {"Content-Type": "application/json"}
     }).then((response) => {
       if (!response.ok) throw Error(response.statusText);
