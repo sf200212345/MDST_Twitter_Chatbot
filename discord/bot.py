@@ -31,7 +31,7 @@ def run_chatbot(input_text):
     # pretty print last ouput tokens from bot
     return "{}".format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True))
 
-TOKEN = "MTA5NzE5NzkzNTQyMDI1MjIxMA.G40SGh.udLHzYaYoahH-QPxUeLTHwfFuQ4lqo06iqufXI"
+TOKEN = "not public"
 
 intents = discord.Intents.default()
 intents.message_content = True
