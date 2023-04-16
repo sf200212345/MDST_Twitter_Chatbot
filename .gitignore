@@ -1,3 +1,4 @@
 backend/env
 backend/__pycache__
 node_modules
+discord/env
